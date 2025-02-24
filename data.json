@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "type": "folder",
+      "name": "public",
+      "id": "0",
+      "isExpanded": false,
+      "items": [
+        {
+          "type": "file",
+          "name": "index.html",
+          "id": "00"
+        },
+        {
+          "type": "file",
+          "name": "data.json",
+          "id": "01"
+        },
+        {
+          "type": "folder",
+          "name": "assets",
+          "id": "02",
+          "isExpanded": false,
+          "items": [
+            {
+              "type": "file",
+              "name": "nature.jpg",
+              "id": "020"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "src",
+      "id": "1",
+      "isExpanded": false,
+      "items": [
+        {
+          "type": "file",
+          "name": "App.js",
+          "id": "10"
+        },
+        {
+          "type": "file",
+          "name": "index.js",
+          "id": "11"
+        },
+        {
+          "type": "file",
+          "name": "styles.css",
+          "id": "12"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "package.json",
+      "id": "2"
+    }
+  ]
+}
