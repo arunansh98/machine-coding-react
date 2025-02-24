@@ -50,7 +50,7 @@ export default function AutoCompletePage() {
   };
 
   return (
-    <div className="App">
+    <div className="auto-complete">
       <AutoComplete
         placeholder="Enter recipes"
         value={recipe}
