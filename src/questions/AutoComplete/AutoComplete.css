@@ -1,0 +1,8 @@
+.auto-complete-options {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: fit-content;
+  max-height: 500px;
+  overflow-y: overlay;
+}

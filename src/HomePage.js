@@ -15,6 +15,9 @@ export default function HomePage() {
         <div className="question-card">
           <Link to="/file-explorer">3. File Explorer Component</Link>
         </div>
+        <div className="question-card">
+          <Link to="/autocomplete">4. AutoComplete Component</Link>
+        </div>
       </div>
     </div>
   );
