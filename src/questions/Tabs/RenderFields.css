@@ -1,0 +1,15 @@
+.fields {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fields > div#field {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 2%;
+  width: 50%;
+}

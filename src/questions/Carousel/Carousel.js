@@ -4,8 +4,6 @@ import "./Carousel.css";
 export default function Carousel(props) {
   const { images, activeImage, setActiveImage } = props;
 
-  console.log({ images });
-
   const imageUrl = images?.[activeImage];
 
   const [timer, setTimer] = useState();
@@ -47,11 +45,9 @@ export default function Carousel(props) {
     const key = event.key;
     switch (key) {
       case "ArrowLeft":
-        console.log("Left arrow");
         handleArrowClick("left");
         break;
       case "ArrowRight":
-        console.log("Right arrow");
         handleArrowClick("right");
         break;
     }

@@ -21,6 +21,12 @@ export default function HomePage() {
         <div className="question-card">
           <Link to="/timer">5. Timer</Link>
         </div>
+        <div className="question-card">
+          <Link to="/pagination">6. Pagination</Link>
+        </div>
+        <div className="question-card">
+          <Link to="/tabs">7. Tabs</Link>
+        </div>
       </div>
     </div>
   );

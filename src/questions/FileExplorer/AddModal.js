@@ -4,7 +4,6 @@ export default function AddModal(props) {
   const { setShowAddModal, handleAddItemSubmit } = props;
   const [type, setType] = useState("");
   const [name, setName] = useState();
-  console.log({ type }, { name });
   return (
     <div
       style={{

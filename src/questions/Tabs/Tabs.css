@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 3rem;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid black;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  cursor: pointer;
+}
+
+.tab {
+  width: 100%;
+  border-style: solid;
+  border-width: 0px;
+  border-right-width: 1px;
+}
+
+.tab-label {
+  font-weight: normal;
+}
+
+.tabs > :last-child {
+  border-right-width: 0px;
+}
+
+.tab-body {
+  padding: 2rem;
+  height: 20vh;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}

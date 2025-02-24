@@ -13,7 +13,6 @@ export default function CarouselPage() {
     );
     const json = await response.json();
     setImages(json.map((image) => image.download_url));
-    console.log({ json });
   };
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
