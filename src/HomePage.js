@@ -8,6 +8,9 @@ export default function HomePage() {
         <div className="question-card">
           <a href="/carousel">1. Custom Carousel Component</a>
         </div>
+        <div className="question-card">
+          <a href="/progress-bar">2. Progress Bar Component</a>
+        </div>
       </div>
     </div>
   );
