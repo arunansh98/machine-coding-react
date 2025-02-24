@@ -1,7 +1,7 @@
 # 🛠️ React Machine Coding Questions Repository
 
 ## 📌 Description
-This repository contains various **machine coding questions** related to **React.js**, commonly asked in **top product-based companies**.  
+This repository contains various **machine coding questions** related to **React.js* which are commonly asked.  
 Each question is implemented as a **standalone React component** with its own setup and logic.
 
 🌐 **Live Demo:** [Machine Coding React](https://arunansh98.github.io/machine-coding-react/)  
