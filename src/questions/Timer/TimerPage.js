@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const TIME_LEFT = 4;
+const TIME_LEFT = 30;
 
 const TimerPage = () => {
   const [count, setCount] = useState(TIME_LEFT);
