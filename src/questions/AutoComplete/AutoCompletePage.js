@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
 import "./AutoCompletePage.css";
-import { UseDebounce } from "../../shared/components/UseDebounce";
 import AutoComplete from "./AutoComplete";
+import { UseDebounce } from "../../shared/hooks/UseDebounce";
 
 export default function AutoCompletePage() {
   const [recipe, setRecipe] = useState("");
