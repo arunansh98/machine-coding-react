@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.image {
+  height: 10rem;
+  width: 14rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  border-radius: 7px;
+  opacity: 0;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.left-arrow {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.right-arrow {
+  height: 1rem;
+  width: 1rem;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+.image.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.image.slide-left {
+  transform: translateX(-20px);
+}
+
+.image.slide-right {
+  transform: translateX(20px);
+}
