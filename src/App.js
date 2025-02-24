@@ -4,6 +4,7 @@ import CarouselPage from "./questions/Carousel/CarouselPage";
 import ProgressBarPage from "./questions/ProgressBar/ProgressBarPage";
 import FileExplorerPage from "./questions/FileExplorer/FileExplorerPage";
 import AutoCompletePage from "./questions/AutoComplete/AutoCompletePage";
+import TimerPage from "./questions/Timer/TimerPage";
 
 const basename =
   process.env.NODE_ENV === "production" ? "/machine-coding-react" : "/";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/progress-bar" element={<ProgressBarPage />} />
         <Route path="/file-explorer" element={<FileExplorerPage />} />
         <Route path="/autocomplete" element={<AutoCompletePage />} />
+        <Route path="/timer" element={<TimerPage />} />
       </Routes>
     </Router>
   );

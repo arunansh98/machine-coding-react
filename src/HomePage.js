@@ -7,16 +7,19 @@ export default function HomePage() {
       <h1>React Machine Coding Questions</h1>
       <div className="question-list">
         <div className="question-card">
-          <Link to="/carousel">1. Custom Carousel Component</Link>
+          <Link to="/carousel">1. Custom Carousel</Link>
         </div>
         <div className="question-card">
-          <Link to="/progress-bar">2. Progress Bar Component</Link>
+          <Link to="/progress-bar">2. Progress Bar</Link>
         </div>
         <div className="question-card">
-          <Link to="/file-explorer">3. File Explorer Component</Link>
+          <Link to="/file-explorer">3. File Explorer</Link>
         </div>
         <div className="question-card">
-          <Link to="/autocomplete">4. AutoComplete Component</Link>
+          <Link to="/autocomplete">4. AutoComplete</Link>
+        </div>
+        <div className="question-card">
+          <Link to="/timer">5. Timer</Link>
         </div>
       </div>
     </div>
