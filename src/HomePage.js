@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./HomePage.css";
 
 export default function HomePage() {
@@ -6,10 +7,10 @@ export default function HomePage() {
       <h1>React Machine Coding Questions</h1>
       <div className="question-list">
         <div className="question-card">
-          <a href="/carousel">1. Custom Carousel Component</a>
+          <Link to="/carousel">1. Custom Carousel Component</Link>
         </div>
         <div className="question-card">
-          <a href="/progress-bar">2. Progress Bar Component</a>
+          <Link to="/progress-bar">2. Progress Bar Component</Link>
         </div>
       </div>
     </div>
