@@ -2,34 +2,49 @@ import { Link } from "react-router-dom";
 import "./HomePage.css";
 
 export default function HomePage() {
+  const pages = [
+    {
+      label: "Custom Carousel",
+      to: "/carousel",
+    },
+    {
+      label: "Progress Bar",
+      to: "/progress-bar",
+    },
+    {
+      label: "File Explorer",
+      to: "/file-explorer",
+    },
+    {
+      label: "AutoComplete",
+      to: "/autocomplete",
+    },
+    {
+      label: "Timer",
+      to: "/timer",
+    },
+    {
+      label: "Pagination",
+      to: "/pagination",
+    },
+    {
+      label: "Tabs",
+      to: "/tabs",
+    },
+    {
+      label: "Infinite Scroller",
+      to: "/infinite-scroller",
+    },
+  ];
   return (
     <div className="questions-container">
       <h1>React Machine Coding Questions</h1>
       <div className="question-list">
-        <div className="question-card">
-          <Link to="/carousel">1. Custom Carousel</Link>
-        </div>
-        <div className="question-card">
-          <Link to="/progress-bar">2. Progress Bar</Link>
-        </div>
-        <div className="question-card">
-          <Link to="/file-explorer">3. File Explorer</Link>
-        </div>
-        <div className="question-card">
-          <Link to="/autocomplete">4. AutoComplete</Link>
-        </div>
-        <div className="question-card">
-          <Link to="/timer">5. Timer</Link>
-        </div>
-        <div className="question-card">
-          <Link to="/pagination">6. Pagination</Link>
-        </div>
-        <div className="question-card">
-          <Link to="/tabs">7. Tabs</Link>
-        </div>
-        <div className="question-card">
-          <Link to="/infinite-scroller">8. Infinite Scroller</Link>
-        </div>
+        {pages.map((page, index) => (
+          <div className="question-card">
+            <Link to={page.to}>{index + 1 + ". " + page.label}</Link>
+          </div>
+        ))}
       </div>
     </div>
   );

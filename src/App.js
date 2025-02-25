@@ -13,18 +13,50 @@ const basename =
   process.env.NODE_ENV === "production" ? "/machine-coding-react" : "/";
 
 function App() {
+  const routes = [
+    {
+      path: "/",
+      component: HomePage,
+    },
+    {
+      path: "/carousel",
+      component: CarouselPage,
+    },
+    {
+      path: "/progress-bar",
+      component: ProgressBarPage,
+    },
+    {
+      path: "/file-explorer",
+      component: FileExplorerPage,
+    },
+    {
+      path: "/autocomplete",
+      component: AutoCompletePage,
+    },
+    {
+      path: "/timer",
+      component: TimerPage,
+    },
+    {
+      path: "/pagination",
+      component: PaginationPage,
+    },
+    {
+      path: "/tabs",
+      component: TabsPage,
+    },
+    {
+      path: "/infinite-scroller",
+      component: InfiniteScrollerPage,
+    },
+  ];
   return (
     <Router basename={basename}>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/carousel" element={<CarouselPage />} />
-        <Route path="/progress-bar" element={<ProgressBarPage />} />
-        <Route path="/file-explorer" element={<FileExplorerPage />} />
-        <Route path="/autocomplete" element={<AutoCompletePage />} />
-        <Route path="/timer" element={<TimerPage />} />
-        <Route path="/pagination" element={<PaginationPage />} />
-        <Route path="/tabs" element={<TabsPage />} />
-        <Route path="/infinite-scroller" element={<InfiniteScrollerPage />} />
+        {routes.map((route) => (
+          <Route path={route.path} element={<route.component />} />
+        ))}
       </Routes>
     </Router>
   );
