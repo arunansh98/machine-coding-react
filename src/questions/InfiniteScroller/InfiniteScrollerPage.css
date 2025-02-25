@@ -1,0 +1,14 @@
+.scroller {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  height: 110vh;
+}
+
+.scroller-image {
+  height: 30vh;
+  width: 30vw;
+}

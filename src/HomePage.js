@@ -27,6 +27,9 @@ export default function HomePage() {
         <div className="question-card">
           <Link to="/tabs">7. Tabs</Link>
         </div>
+        <div className="question-card">
+          <Link to="/infinite-scroller">8. Infinite Scroller</Link>
+        </div>
       </div>
     </div>
   );

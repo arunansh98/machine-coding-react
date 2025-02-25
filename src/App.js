@@ -7,6 +7,7 @@ import AutoCompletePage from "./questions/AutoComplete/AutoCompletePage";
 import TimerPage from "./questions/Timer/TimerPage";
 import PaginationPage from "./questions/Pagination/PaginationPage";
 import TabsPage from "./questions/Tabs/TabsPage";
+import InfiniteScrollerPage from "./questions/InfiniteScroller/InfiniteScrollerPage";
 
 const basename =
   process.env.NODE_ENV === "production" ? "/machine-coding-react" : "/";
@@ -23,6 +24,7 @@ function App() {
         <Route path="/timer" element={<TimerPage />} />
         <Route path="/pagination" element={<PaginationPage />} />
         <Route path="/tabs" element={<TabsPage />} />
+        <Route path="/infinite-scroller" element={<InfiniteScrollerPage />} />
       </Routes>
     </Router>
   );
