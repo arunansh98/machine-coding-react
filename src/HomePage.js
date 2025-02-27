@@ -35,6 +35,10 @@ export default function HomePage() {
       label: "Infinite Scroller",
       to: "/infinite-scroller",
     },
+    {
+      label: "File Upload",
+      to: "/file-upload",
+    },
   ];
   return (
     <div className="questions-container">

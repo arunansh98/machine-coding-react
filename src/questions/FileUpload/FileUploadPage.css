@@ -1,0 +1,53 @@
+.file-upload-page {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.file-upload-container {
+  border: 1px solid gray;
+  width: 25rem;
+  height: 10rem;
+  border-radius: 5px;
+  background-color: #fafafa;
+  cursor: pointer !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* span {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  } */
+
+.file-input {
+  position: absolute;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.file-preview-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-image-button {
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+}
+
+.file-delete-button {
+  cursor: pointer;
+  margin-right: 1rem;
+}

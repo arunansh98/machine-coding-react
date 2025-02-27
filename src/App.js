@@ -8,6 +8,7 @@ import TimerPage from "./questions/Timer/TimerPage";
 import PaginationPage from "./questions/Pagination/PaginationPage";
 import TabsPage from "./questions/Tabs/TabsPage";
 import InfiniteScrollerPage from "./questions/InfiniteScroller/InfiniteScrollerPage";
+import FileUploadPage from "./questions/FileUpload/FileUploadPage";
 
 const basename =
   process.env.NODE_ENV === "production" ? "/machine-coding-react" : "/";
@@ -49,6 +50,10 @@ function App() {
     {
       path: "/infinite-scroller",
       component: InfiniteScrollerPage,
+    },
+    {
+      path: "/file-upload",
+      component: FileUploadPage,
     },
   ];
   return (
