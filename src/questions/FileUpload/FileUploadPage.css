@@ -21,12 +21,6 @@
   position: relative;
 }
 
-/* span {
-    height: 100%;
-    display: flex;
-    align-items: center;
-  } */
-
 .file-input {
   position: absolute;
   opacity: 0;

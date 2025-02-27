@@ -5,7 +5,7 @@ export default function PreviewModal(props) {
   return (
     <div className="main-container">
       <div className="secondary-container">
-        <div className="image-container">
+        <div className="image-preview-container">
           <img
             style={{
               height: "100%",

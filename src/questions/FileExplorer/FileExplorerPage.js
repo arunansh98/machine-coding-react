@@ -160,14 +160,16 @@ export default function FileExplorerPage() {
   const renderedItems = constructItems(items);
 
   return (
-    <div className="App">
-      {renderedItems}
-      {showAddModal && (
-        <AddModal
-          setShowAddModal={setShowAddModal}
-          handleAddItemSubmit={handleAddItemSubmit}
-        />
-      )}
+    <div className="file-explorer-page">
+      <div>
+        {renderedItems}
+        {showAddModal && (
+          <AddModal
+            setShowAddModal={setShowAddModal}
+            handleAddItemSubmit={handleAddItemSubmit}
+          />
+        )}
+      </div>
     </div>
   );
 }

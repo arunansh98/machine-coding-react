@@ -17,7 +17,7 @@ export default function Tabs(props) {
   };
 
   return (
-    <div className="container">
+    <div className="tabs-container">
       <div className="tabs">
         {tabs.map((tab, index) => (
           <div key={index} className="tab" onClick={() => setActiveTab(index)}>

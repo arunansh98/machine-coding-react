@@ -1,7 +1,12 @@
-.App {
+.file-explorer-page {
   font-family: sans-serif;
-  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
+
 .item {
   cursor: pointer;
   padding-left: 1rem;
