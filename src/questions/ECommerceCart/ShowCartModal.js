@@ -73,10 +73,8 @@ const ShowCartModal = memo(
                         marginTop: "0.5rem",
                       }}
                     >
-                      <span
-                        style={{ marginRight: "0.5rem", fontWeight: "bold" }}
-                      >
-                        x
+                      <span style={{ marginRight: "0.5rem" }}>
+                        Rs.{product.price} <b>x</b>
                       </span>
                       <span>
                         {product.cartCount} = Rs.

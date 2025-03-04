@@ -13,6 +13,7 @@ export default function ECommerceCartPage() {
     const fetchedProducts = json.map((item) => ({
       ...item,
       cartCount: 0,
+      price: Math.round(item.price),
     }));
     setProducts(fetchedProducts);
   };
