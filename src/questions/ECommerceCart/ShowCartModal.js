@@ -5,7 +5,7 @@ const ShowCartModal = memo(
   ({ products, setShowCartModal, updateCartCount }) => {
     const totalAmount = useMemo(() => {
       return products.reduce(
-        (acc, curr) => acc + Math.round(curr.price * curr.cartCount),
+        (acc, curr) => acc + curr.price * curr.cartCount,
         0
       );
     }, [products]);
@@ -78,7 +78,7 @@ const ShowCartModal = memo(
                       </span>
                       <span>
                         {product.cartCount} = Rs.
-                        {Math.round(product.cartCount * product.price)}
+                        {product.cartCount * product.price}
                       </span>
                     </div>
                   </div>
