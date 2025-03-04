@@ -43,6 +43,10 @@ export default function HomePage() {
       label: "E-Commerce Cart",
       to: "/e-commerce-cart",
     },
+    {
+      label: "Typing Indicator",
+      to: "/typing-indicator",
+    },
   ];
   return (
     <div className="questions-container">

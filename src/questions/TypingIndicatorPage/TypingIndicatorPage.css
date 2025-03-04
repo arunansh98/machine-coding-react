@@ -1,0 +1,23 @@
+.user {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.chat-window {
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: 10rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input,
+input::placeholder {
+  text-align: center;
+  outline: none;
+}

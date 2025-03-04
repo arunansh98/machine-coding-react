@@ -10,6 +10,7 @@ import TabsPage from "./questions/Tabs/TabsPage";
 import InfiniteScrollerPage from "./questions/InfiniteScroller/InfiniteScrollerPage";
 import FileUploadPage from "./questions/FileUpload/FileUploadPage";
 import ECommerceCartPage from "./questions/ECommerceCart/ECommerceCartPage";
+import TypingIndicatorPage from "./questions/TypingIndicatorPage/TypingIndicatorPage";
 
 const basename =
   process.env.NODE_ENV === "production" ? "/machine-coding-react" : "/";
@@ -59,6 +60,10 @@ function App() {
     {
       path: "/e-commerce-cart",
       component: ECommerceCartPage,
+    },
+    {
+      path: "/typing-indicator",
+      component: TypingIndicatorPage,
     },
   ];
   return (
