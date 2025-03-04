@@ -9,6 +9,7 @@ import PaginationPage from "./questions/Pagination/PaginationPage";
 import TabsPage from "./questions/Tabs/TabsPage";
 import InfiniteScrollerPage from "./questions/InfiniteScroller/InfiniteScrollerPage";
 import FileUploadPage from "./questions/FileUpload/FileUploadPage";
+import ECommerceCartPage from "./questions/ECommerceCart/ECommerceCartPage";
 
 const basename =
   process.env.NODE_ENV === "production" ? "/machine-coding-react" : "/";
@@ -54,6 +55,10 @@ function App() {
     {
       path: "/file-upload",
       component: FileUploadPage,
+    },
+    {
+      path: "/e-commerce-cart",
+      component: ECommerceCartPage,
     },
   ];
   return (

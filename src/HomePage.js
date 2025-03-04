@@ -39,6 +39,10 @@ export default function HomePage() {
       label: "File Upload",
       to: "/file-upload",
     },
+    {
+      label: "E-Commerce Cart",
+      to: "/e-commerce-cart",
+    },
   ];
   return (
     <div className="questions-container">
