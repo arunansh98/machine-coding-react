@@ -47,6 +47,10 @@ export default function HomePage() {
       label: "Typing Indicator",
       to: "/typing-indicator",
     },
+    {
+      label: "Weather",
+      to: "/weather",
+    },
   ];
   return (
     <div className="questions-container">

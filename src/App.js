@@ -11,6 +11,7 @@ import InfiniteScrollerPage from "./questions/InfiniteScroller/InfiniteScrollerP
 import FileUploadPage from "./questions/FileUpload/FileUploadPage";
 import ECommerceCartPage from "./questions/ECommerceCart/ECommerceCartPage";
 import TypingIndicatorPage from "./questions/TypingIndicatorPage/TypingIndicatorPage";
+import WeatherPage from "./questions/Weather/WeatherPage";
 
 const basename =
   process.env.NODE_ENV === "production" ? "/machine-coding-react" : "/";
@@ -64,6 +65,10 @@ function App() {
     {
       path: "/typing-indicator",
       component: TypingIndicatorPage,
+    },
+    {
+      path: "/weather",
+      component: WeatherPage,
     },
   ];
   return (
