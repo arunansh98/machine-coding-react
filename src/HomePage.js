@@ -51,6 +51,10 @@ export default function HomePage() {
       label: "Weather",
       to: "/weather",
     },
+    {
+      label: "Quotes",
+      to: "/quotes",
+    },
   ];
   return (
     <div className="questions-container">

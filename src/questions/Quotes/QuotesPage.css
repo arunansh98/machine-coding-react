@@ -1,0 +1,39 @@
+.quotes {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.quote {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 10px;
+  background: aliceblue;
+  cursor: pointer;
+}
+
+.author {
+  color: grey;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.load-more-container {
+  width: 100%;
+  text-align: center;
+}
+
+.load-more-btn {
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.loading {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

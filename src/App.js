@@ -11,7 +11,8 @@ import InfiniteScrollerPage from "./questions/InfiniteScroller/InfiniteScrollerP
 import FileUploadPage from "./questions/FileUpload/FileUploadPage";
 import ECommerceCartPage from "./questions/ECommerceCart/ECommerceCartPage";
 import TypingIndicatorPage from "./questions/TypingIndicatorPage/TypingIndicatorPage";
-import WeatherPage from "./questions/Weather/WeatherPage";
+import WeatherPage from "./questions/Weather/WeatherPage.js";
+import QuotesPage from "./questions/Quotes/QuotesPage.js";
 
 const basename =
   process.env.NODE_ENV === "production" ? "/machine-coding-react" : "/";
@@ -69,6 +70,10 @@ function App() {
     {
       path: "/weather",
       component: WeatherPage,
+    },
+    {
+      path: "/quotes",
+      component: QuotesPage,
     },
   ];
   return (
